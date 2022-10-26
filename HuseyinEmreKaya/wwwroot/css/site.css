@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.container {
+    
+    display: flex;
+    
+}
+
+.card {
+    margin: 15px;
+}
+
+.image {
+
+    width: 17rem;
+    margin: auto;
+}
+
+.deneme {
+    display: flex;
+}
+
+.imaj {
+    width: 17rem;
+    height: 17rem;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.imaj img{
+
+    margin: auto;
+
+}
