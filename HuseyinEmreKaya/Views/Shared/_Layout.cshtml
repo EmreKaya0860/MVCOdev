@@ -7,11 +7,28 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HuseyinEmreKaya.styles.css" asp-append-version="true" />
+
+    <style>
+        .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0;
+        }
+
+        .dropdown-item:hover {
+            background-color: red;
+        }
+
+        .navBarCustom:hover {
+            background-color: green;
+        }
+
+
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" >
+            <div class="container-fluid navBarCustom" id="navBar" >
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HuseyinEmreKaya</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +48,8 @@
                         <li class="nav-item">
                             <div class="dropdown">
 
-                                <a class="nav-link text-dark" data-bs-toggle="dropdown" aria-expanded="false" asp-area="" asp-controller="Categories" asp-action="Index">Kategoriler</a>
+                                <a class="nav-link text-dark" aria-expanded="false" asp-area="" asp-controller="Categories" asp-action="Index">Kategoriler</a>
+                               @* <a class="nav-link text-dark" data-bs-toggle="dropdown" aria-expanded="false" asp-area="" asp-controller="Categories" asp-action="Index">Kategoriler</a>*@
                          
                                 <ul class="dropdown-menu">
                                     
@@ -62,5 +80,23 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        //var item = document.getElementById("navBar");
+        //console.log(item.innerHTML);
+        //item.addEventListener("mouseover", () => {
+
+        //    item.style.backgroundColor = "green";
+
+        //});
+        
+        //item.addEventListener("mouseout", () => {
+
+        //    item.style.backgroundColor = "white";
+
+        //});
+
+        
+    </script>
 </body>
 </html>

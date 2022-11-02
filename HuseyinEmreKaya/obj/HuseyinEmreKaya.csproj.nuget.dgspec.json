@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emre\\source\\repos\\HuseyinEmreKaya\\HuseyinEmreKaya\\HuseyinEmreKaya.csproj": {}
+    "C:\\Users\\Emre\\Desktop\\HuseyinEmreKaya\\HuseyinEmreKaya\\HuseyinEmreKaya.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emre\\source\\repos\\HuseyinEmreKaya\\HuseyinEmreKaya\\HuseyinEmreKaya.csproj": {
+    "C:\\Users\\Emre\\Desktop\\HuseyinEmreKaya\\HuseyinEmreKaya\\HuseyinEmreKaya.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\source\\repos\\HuseyinEmreKaya\\HuseyinEmreKaya\\HuseyinEmreKaya.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\HuseyinEmreKaya\\HuseyinEmreKaya\\HuseyinEmreKaya.csproj",
         "projectName": "HuseyinEmreKaya",
-        "projectPath": "C:\\Users\\Emre\\source\\repos\\HuseyinEmreKaya\\HuseyinEmreKaya\\HuseyinEmreKaya.csproj",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\HuseyinEmreKaya\\HuseyinEmreKaya\\HuseyinEmreKaya.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\source\\repos\\HuseyinEmreKaya\\HuseyinEmreKaya\\obj\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\HuseyinEmreKaya\\HuseyinEmreKaya\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

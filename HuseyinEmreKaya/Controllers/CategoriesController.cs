@@ -13,5 +13,13 @@ namespace HuseyinEmreKaya.Controllers
         {
             return View();
         }
+        public IActionResult Tablet()
+        {
+            return View();
+        }
+        public IActionResult Telefon()
+        {
+            return View();
+        }
     }
 }
